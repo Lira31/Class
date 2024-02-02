@@ -1,0 +1,29 @@
+1.
+a = 7.3
+b = 3
+c = 0 
+c = c+a*b
+stroka = УabcФ
+print (a, type (a))
+c = int (c)
+print (c, type))
+numb = c 
+print (numb)
+strora = stroka*2 + У!Ф
+print (stroka)
+
+2. 
+name = input ("¬ведите ваше им€")
+age = input ("¬ведите ваш возраст")
+print(f"–ад приветствовать теб€ {name}! “ебе уже {age} лет")
+
+3.
+a = input ("¬ведите число a")
+b = input ("¬ведите число b")
+a = int(a)
+b = int(b)
+c = a+b
+d = a-b
+e = a*b
+f = a/b
+print(c, d, e, f)
