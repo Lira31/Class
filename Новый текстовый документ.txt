@@ -1,30 +1,44 @@
-1
-word = "программирование"
-w1 =  word[0] +word[1] + word[2] + word[3] + word[4] + word[5] + word[6] + word[7] + word[12] 
-print (w1)
-w2 =  word[3] + word[4] + word[5] + word[6] + word[7] 
-print (w2)
-print (word[1:4])
-print (word[7:10])
-w3 = word[3] + word[4] + word[2] + word[6] 
-print (w3)
+1 Задание
 
-2
-w = str(input("Введите вашу строку"))
-w1 = w[0]
-print(w1)
+while True:
+    letter=input("Введите письмо")
+    if len(letter)>25 :
+        print("Письмо отправлено")
+        break
+    else:
+        print("Слишком мало символов")
 
-3.
-w = str(input("Введите вашу строку"))
-w1 = w[1] + w[2] + w[3] + w[4]
-print(w1)
+2 задание
 
-4.
-w = str(input("Введите вашу строку"))
-b1 = w[0]
-b2 = w[1]
-if b1 == b2:
-    print(True)
-else:
-    print(False)
+while True :
+   print("Выберите действие")
+   print("A. Пойти налево")
+   print("D. Пойти направо")
+   print("W. Пойти прямо")
+   print("S. Пойти назад")
+   
+   a=input("Введите букву действия") 
+   if a == "A" :
+       print("Вы пошли налево")
+   elif a == "D" :
+       print("Вы пошли направо")
+   elif a == "W" :
+       print("Вы пошли прямо")
+   elif a == "S" :
+       print("Вы пошли назад")
+       break
+   else :
+       print("Введите заново")
+
+
+
+3 задание
+
+numbers = [10,6,4,30,8,7,9]
+for x in  numbers :
+    if x %3==0:
+        print(x)
+    
+
+
 
